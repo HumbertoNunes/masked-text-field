@@ -1,0 +1,26 @@
+{
+  "name": "masked-text-field",
+  "version": "1.0.0",
+  "description": "A simple way to use masks on input fields",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HumbertoNunes/masked-text-field.git"
+  },
+  "keywords": [
+    "mask",
+    "mask-input",
+    "masked-input",
+    "mask-field"
+  ],
+  "author": "Humberto Tavares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HumbertoNunes/masked-text-field/issues"
+  },
+  "homepage": "https://github.com/HumbertoNunes/masked-text-field#readme"
+}
