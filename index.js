@@ -7,9 +7,7 @@ export default function useMask(mask, value, type = "text") {
     return value;
   }
 
-  for (let letter = 0; letter < value.length; letter++) {
-    mask = mask.replace("#", value[letter]);
-  }
+  value.split("").forEach((letter) => (mask = mask.replace("#", letter)));
 
   return mask
     .slice(0, mask.search("#") > 0 ? mask.search("#") : mask.length)
